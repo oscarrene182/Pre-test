@@ -1,0 +1,38 @@
+body{
+    background-image: url(sociales.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.logo{
+    font-size: 3.8rem;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: underline;
+    padding: 6px 20px;
+    font-weight: 500;
+    font-size: 1.7rem;
+    transition: 0.3s ease 0s;
+    cursor: pointer;
+}
+ul li:hover{
+ border-radius: 20px;
+ text-decoration: none;
+    background-color: #0010eb;
+    color: #fff;
+}
+button{
+    border-radius: 20px;
+    background-color: #f14747;
+    border: none;
+}
